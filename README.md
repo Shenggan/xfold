@@ -41,7 +41,11 @@ python run_alphafold.py \
 
 ## Acknowledgments
 
-We extend our gratitude to AlphaFold3 for open-sourcing their inference code and model weights, which has significantly advanced scientific research. xfold is provided exclusively for educational and research purposes. Users are kindly requested to review and comply with the AlphaFold3 license, available at https://github.com/google-deepmind/alphafold3?tab=readme-ov-file#licence-and-disclaimer.
+The xfold source code is licensed under the Apache License, Version 2.0.
+
+This project may include code adapted from or inspired by AlphaFold 3 source code, which is licensed under Apache-2.0.
+
+AlphaFold 3 model parameters/weights are not included in this repository and are subject to Google DeepMind's separate AlphaFold 3 Model Parameters Terms of Use. Users are kindly requested to review and comply with the AlphaFold3 license, available at https://github.com/google-deepmind/alphafold3?tab=readme-ov-file#licence-and-disclaimer.
 
 ## Contributing
 
