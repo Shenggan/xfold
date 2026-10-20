@@ -310,7 +310,7 @@ class AlphaFold3(nn.Module):
             torch.sqrt(t_hat**2 - noise_level_prev**2)
         noise = noise_scale * \
             torch.randn(size=positions.shape, device=noise_scale.device)
-        noise = noise_scale
+        #noise = noise_scale
         positions_noisy = positions + noise
 
         positions_denoised = self.diffusion_head(positions_noisy=positions_noisy,
